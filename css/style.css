@@ -1,0 +1,332 @@
+:root{
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+.tudo {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+.menu__header{
+    display: flex;
+    align-items: center;
+    padding: auto;
+    width: 40%;
+}
+.menu__list{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.menu nav {
+    display: flex;
+    flex-grow: 1;
+}
+
+.menu_list_item {
+    padding: 10px 10px;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.title__bio{
+    font-size: 60px;
+    padding:10px;
+}
+.title__subsection{
+    font-size: 20px;
+}
+.title__network{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.title__profile {
+    padding: 20px 0;
+}
+
+.about{
+    background-color: #c2d9f8;
+    padding: 50px;
+    width: auto;
+    margin:left;
+
+}
+.about__container{
+    font-size: 20px;
+
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    max-width: 1136px;
+    margin: 88px auto;
+
+}
+.skills__title{
+font-size: 60px;
+align-items: center;
+}
+
+
+.skills__line{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    border: 10px;
+    
+}
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    max-width: 1136px;
+    margin: 88px auto;
+}
+.hobbies__title{
+    font-size: 60px;
+    align-items: center;
+}
+
+.hobbies__line{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    border: 10px;
+}
+.academic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    max-width: 1440px;
+    align-self: stretch;
+    background-color: #c2d9f8;
+    border-radius: 16px;
+}
+
+
+.academic__title{
+    font-size: 60px;
+    align-items: center;
+}
+
+.academic__courses{
+    justify-content: space-between;
+    display: flex;
+}
+
+.academic__courses__item__title{
+    font-size: 20px;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    width: auto;
+}
+.experience__section__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+}
+
+.experiencie__box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin: 32px 0;
+    gap: 4em;
+}
+
+.formcontato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    margin: 32px auto;
+    background-color: #c2d9f8;
+    width: auto;
+    border-radius: 16px;
+}
+
+.formcontato__contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 0 0;
+    margin: 10px 0;
+    max-width: 1136px;
+}
+
+.formcontato__img{
+    width: 464px;
+    height: 593px;
+    margin-right: 16px;
+
+}
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.formcontato__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    margin: 0 0 8px 0;
+}
+.formcontato__subtext{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.formcontato__input-name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    margin: 0 0 32px 0;
+    background: #ffffff;
+    border-radius: 4px;
+}
+.formcontato__input-correo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    margin: 0 0 32px 0;
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.formcontato__asunto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    margin: 0 0 32px 0;
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.formcontato__textarea{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    border: none;
+    outline: 0;
+    resize: none;
+    width: 100%;
+}
+
+.formcontato__botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #2a7ae4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 16px;
+}
+
+.footer p {
+    font-family: 'Raleway', sans-serif;
+    color: #c74634;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.footer a {
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
